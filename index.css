@@ -1,0 +1,51 @@
+body {
+    background-color: goldenrod;
+}
+
+.nav {
+    background-color: rgb(255, 217, 134);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    color: rgb(44, 27, 127);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    top: 0px;
+    transition: 350ms ease-out;
+}
+
+.nav a:hover {
+    background-color: rgb(184, 99, 184);
+    top: -6px;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(44, 27, 127);
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gallery img {
+    border-radius: 10px;
+    margin: 25px;
+    width: 210px;
+    transition: 400ms;
+}
+
+.gallery img:hover {
+    transform: scale(125%) rotate(10deg) translateY(-10px);
+}
